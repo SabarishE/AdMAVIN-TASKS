@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+
+body{
+    background-color: rgb(23, 2, 43);
+}
+h1{
+
+    text-align: center;
+    color: white;
+    font-family: 'Macondo', cursive;
+}
+#gameboard{
+    width:300px;
+    height: 300px;
+    margin:3rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.box{
+    width:100px;
+    height: 100px;
+    border:0.5px solid white;
+    box-sizing: border-box;
+    font-size:90px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    text-shadow: 1rem;
+    font-family: 'Macondo', cursive;
+} 
+button{
+    cursor: pointer;
+    border: none;
+    width: 12rem;
+    height:3rem;
+    font-size: 2rem;
+    text-align: center ;
+    display: block;
+    margin:auto;
+    border-radius:0.5rem;
+    transition: 0.3s all;
+}
+
+button:hover{
+    box-shadow: 0 0 12px 3px white;
+}
